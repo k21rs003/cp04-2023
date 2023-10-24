@@ -60,17 +60,17 @@
     
     #btnA {
         font-size: 30px;
-        position:absolute; top:470px; left:7%; width:25%; height:60px;
+        position:absolute; top:480px; left:9%; width:25%; height:60px;
     }
     
     #btnB {
         font-size: 30px;
-        position:absolute; top:470px; left:35%; width:25%; height:60px; 
+        position:absolute; top:480px; left:37%; width:25%; height:60px; 
     }
 
     #btnC {
         font-size: 30px;
-        position:absolute; top:470px; left:62%; width:25%; height:60px; 
+        position:absolute; top:480px; left:64%; width:25%; height:60px; 
     }
     
     #minute {
