@@ -5,9 +5,9 @@
     }
 
     button{
-        color: blue;
+        color: black;
         font-family: Times;
-        border-radius: 20px;
+        border-radius: 50px;
     }
 
     #minuteStr {
@@ -58,41 +58,38 @@
     }
     
     #btnA {
-        font-size: 20px;
-        position:absolute; top:380px; left:2%; width:43%; height:60px;
-
-        background-color: yellow;
-        color: green;
+        font-size: 30px;
+        position:absolute; top:500px; left:7%; width:25%; height:60px;
     }
     
     #btnB {
-        font-size: 20px;
-        position:absolute; top:380px; left:45%; width:25%; height:60px; 
+        font-size: 30px;
+        position:absolute; top:500px; left:35%; width:25%; height:60px; 
     }
 
     #btnC {
-        font-size: 10px;
-        position:absolute; top:380px; left:70%; width:28%; height:60px; 
+        font-size: 30px;
+        position:absolute; top:500px; left:62%; width:25%; height:60px; 
     }
     
     #minute {
         font-size: 50px;
-        position:absolute; top:450px; left:50px; width:100px; height:50px;   
+        position:absolute; top:400px; left:50px; width:100px; height:50px;   
     }
     
     #second {
         font-size: 50px;
-        position:absolute; top:450px; left:200px; width:100px; height:50px;   
+        position:absolute; top:400px; left:200px; width:100px; height:50px;   
     }
 
     .min-Str {
         font-size: 30px;
-        position: absolute; top: 465px; left: 165px;
+        position: absolute; top: 415px; left: 165px;
     }
     
     .sec-Str {
         font-size: 30px;
-        position: absolute; top: 465px; left: 315px;
+        position: absolute; top: 415px; left: 315px;
     }
 
     input[type=number] {text-align: right;}
