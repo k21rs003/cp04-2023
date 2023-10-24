@@ -1,7 +1,7 @@
 /**/
 
     body {
-        background-color: skyblue;
+        background-color: rgb(255, 244, 147);
     }
 
     button{
@@ -28,7 +28,7 @@
     }
 
     #remain {
-        color: #ff0000;
+        color: rgb(206, 175, 0);
         font-size: 20px;
         text-align: center;
         position:absolute; top:310px; 
@@ -38,13 +38,14 @@
     }
     
     #time {
-        color: #ff0000;
+        color: rgb(206, 175, 0);
         font-size: 20px;
         text-align: center;
         position:absolute; top:340px; 
         left:10px; right:10px;
+        border-top: 1px solid;
 
-        box-shadow: 5px 5px 5px;
+        /* box-shadow: 5px 5px 5px; */
         width: 50%;
         margin: 0 auto;
     }
@@ -59,17 +60,17 @@
     
     #btnA {
         font-size: 30px;
-        position:absolute; top:500px; left:7%; width:25%; height:60px;
+        position:absolute; top:470px; left:7%; width:25%; height:60px;
     }
     
     #btnB {
         font-size: 30px;
-        position:absolute; top:500px; left:35%; width:25%; height:60px; 
+        position:absolute; top:470px; left:35%; width:25%; height:60px; 
     }
 
     #btnC {
         font-size: 30px;
-        position:absolute; top:500px; left:62%; width:25%; height:60px; 
+        position:absolute; top:470px; left:62%; width:25%; height:60px; 
     }
     
     #minute {
