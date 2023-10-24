@@ -76,13 +76,23 @@
     }
     
     #minute {
-        font-size: 30px;
-        position:absolute; top:450px; left:60px; width:80px; height:40px;   
+        font-size: 50px;
+        position:absolute; top:450px; left:50px; width:100px; height:50px;   
     }
     
     #second {
+        font-size: 50px;
+        position:absolute; top:450px; left:200px; width:100px; height:50px;   
+    }
+
+    .min-Str {
         font-size: 30px;
-        position:absolute; top:450px; left:190px; width:80px; height:40px;   
+        position: absolute; top: 465px; left: 165px;
     }
     
+    .sec-Str {
+        font-size: 30px;
+        position: absolute; top: 465px; left: 315px;
+    }
+
     input[type=number] {text-align: right;}
