@@ -163,7 +163,7 @@
         
     }
 
-    // Alarmの処理
+    // 開始Alarmの処理
     function alarm(){
         var canvas = $("#mycanvas")[0];
         var ctx = canvas.getContext("2d");
@@ -175,6 +175,13 @@
 
         var audio = new Audio();
         audio.src = "pin.wav";
+        audio.play();
+    }
+
+    // 終了Alarmの処理
+    function stopAlarm(){
+        var audio = new Audio();
+        audio.src = "Alarm.mp3";
         audio.play();
     }
     
@@ -213,7 +220,7 @@
 
           if(rest <= 0){
             active = false;
-            alarm();
+            stopAlarm();
           }
         }
     } 
