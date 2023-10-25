@@ -194,6 +194,11 @@
 
         btnText.classList.remove('hidden');
         btnText.classList.add('popup-message');
+
+        btnText.addEventListener('animationend', () => {
+            btnText.classList.remove('popup-message');
+            btnText.classList.add('hidden');
+        });
         
     }
 
@@ -231,6 +236,11 @@
 
               btn2Text.classList.remove('hidden');
               btn2Text.classList.add('popup-message');
+
+              btn2Text.addEventListener('animationend', () => {
+                    btn2Text.classList.remove('popup-message');
+                    btn2Text.classList.add('hidden');
+                });
           }
         }
     } 
