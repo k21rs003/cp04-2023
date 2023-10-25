@@ -103,8 +103,10 @@
         height: 72px;
         padding: 8px 16px;
         border-radius: 8px;
-        background: #ddd;
+        box-shadow: 6px 6px 0px 0px #f8c726;
+        background: #fff;
         font-weight: bold;
+        font-family: Hiragino Maru Gothic ProN W4;
         text-align: center;
         line-height: 72px;
         position: fixed;
@@ -116,8 +118,10 @@
         height: 72px;
         padding: 8px 16px;
         border-radius: 8px;
-        background: #ddd;
+        box-shadow: 6px 6px 0px 0px #f8c726;
+        background: #fff;
         font-weight: bold;
+        font-family: Hiragino Maru Gothic ProN W4;
         text-align: center;
         line-height: 72px;
         position: fixed;
