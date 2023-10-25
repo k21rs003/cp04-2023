@@ -1,14 +1,14 @@
 /**/
 
     body {
-        background-color: rgb(255, 244, 147);
+        background-color: rgb(255, 242, 185);
     }
 
-    button{
+    /* button{
         color: black;
         font-family: Times;
         border-radius: 50px;
-    }
+    } */
 
     #minuteStr {
         color: #ff0000;
@@ -28,7 +28,7 @@
     }
 
     #remain {
-        color: rgb(206, 175, 0);
+        color: #fac61c;
         font-size: 20px;
         text-align: center;
         position:absolute; top:310px; 
@@ -38,7 +38,7 @@
     }
     
     #time {
-        color: rgb(206, 175, 0);
+        color: #fac61c;
         font-size: 20px;
         text-align: center;
         position:absolute; top:340px; 
@@ -123,6 +123,21 @@
         position: fixed;
         right: 5%;
         bottom: 10%;
+    }
+
+    /* ボタンのデザイン */
+    button {
+        font-family: Times;
+        font-weight: bold;
+        border: 2px solid #f8c726;
+        background: #f8c726;
+        color: #fff;
+        border-radius: 100vh;
+        transition: 0.5s;
+    }
+    button:hover {
+        color: #f8c726;
+        background: #fff;
     }
 
     /* ポップアップアニメーションを3秒かけて実行 */
