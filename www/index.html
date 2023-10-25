@@ -189,6 +189,11 @@
     function btnAClick(e){
         active = true;
         startTime = new Date();
+
+        const btnText = document.getElementById('btn-text');
+
+        btnText.classList.remove('hidden');
+        btnText.classList.add('popup-message');
         
     }
 
@@ -219,12 +224,16 @@
           analog(rest);
 
           if(rest <= 0){
-            active = false;
-            stopAlarm();
+              active = false;
+              stopAlarm();
+
+              const btn2Text = document.getElementById('btn2-text');
+
+              btn2Text.classList.remove('hidden');
+              btn2Text.classList.add('popup-message');
           }
         }
     } 
-
   </script>
 </head>
 <body>
@@ -244,7 +253,10 @@
         <div class="sec-Str">秒</div>
     </div>
     <button id="btnA">Start</button>  
+    <p id="btn-text" class="hidden">スタート！</p>
     <button id="btnB">Stop</button>  
     <button id="btnC">Set</button>
+
+    <p id="btn2-text" class="hidden">お疲れさま！</p>
 </body>
 </html>

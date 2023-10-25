@@ -93,4 +93,57 @@
         position: absolute; top: 415px; left: 315px;
     }
 
+    /* ポップアップメッセージを隠す */
+    .hidden {
+        display: none;
+    }
+
+    /* ポップアップメッセージを画面右下に配置 */
+    #btn-text {
+        height: 72px;
+        padding: 8px 16px;
+        border-radius: 8px;
+        background: #ddd;
+        font-weight: bold;
+        text-align: center;
+        line-height: 72px;
+        position: fixed;
+        right: 5%;
+        bottom: 10%;
+    }
+
+     #btn2-text {
+        height: 72px;
+        padding: 8px 16px;
+        border-radius: 8px;
+        background: #ddd;
+        font-weight: bold;
+        text-align: center;
+        line-height: 72px;
+        position: fixed;
+        right: 5%;
+        bottom: 10%;
+    }
+
+    /* ポップアップアニメーションを3秒かけて実行 */
+    .popup-message {
+        animation: popup 3s forwards;
+    }
+
+    @keyframes popup {
+        0% {
+            transform: translateY(15%);
+            opacity: 0;
+         }
+        10%, 90% {
+            transform: none;
+            opacity: 1;
+        }
+        100% {
+            transform: translateY(15%);
+            opacity: 0;
+            pointer-events: none;
+        }
+    }
+
     input[type=number] {text-align: right;}
