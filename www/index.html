@@ -184,6 +184,15 @@
         var audio = new Audio();
         audio.src = "Alarm.mp3";
         audio.play();
+        // 停止ボタン
+        btnB.addEventListener("click", ()=>{
+            audio.pause();
+            audio.currentTime = 0;  // 曲の先頭に再生開始位置を戻す
+        });
+        btnC.addEventListener("click", ()=>{
+            audio.pause();
+            audio.currentTime = 0;
+        });
     }
     
     // ButtonAがクリックされた時の処理
